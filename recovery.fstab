@@ -1,0 +1,7 @@
+/                        ext4     /dev/block/bootdevice/by-name/system                  flags=display=;slotselect
+/metadata                ext4     /dev/block/bootdevice/by-name/metadata                flags=display=metadata
+/data                    f2fs     /dev/block/bootdevice/by-name/userdata                flags=display=data
+/misc                    emmc     /dev/block/bootdevice/by-name/misc                    flags=display=misc
+/vendor/firmware_mnt     vfat     /dev/block/bootdevice/by-name/modem                   flags=display=firmware_mnt;slotselect
+auto                     vfat     /devices/platform/soc/a600000.ssusb/a600000.dwc3*     flags=display=auto
+none                     swap     /dev/block/zram0                                      flags=display=none
